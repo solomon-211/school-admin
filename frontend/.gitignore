@@ -1,4 +1,28 @@
+# Dependencies
 node_modules/
-build/
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Vite cache
+.vite/
